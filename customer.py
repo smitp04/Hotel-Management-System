@@ -334,6 +334,8 @@ class Cust_win:
             conne.commit()
         conne.close()
 
+        
+
 if __name__ == "__main__":
     root = Tk()
     obj = Cust_win(root)
